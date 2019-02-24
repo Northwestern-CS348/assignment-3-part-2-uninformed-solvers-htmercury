@@ -49,7 +49,7 @@ class TowerOfHanoiGame(GameMaster):
                 disks = self.kb.kb_ask(get_disks)
                 # convert the list of disks to a list of integers representing the disks
                 disks = list(map(lambda d: int(d.bindings_dict['?d'].replace('disk', '')), disks))
-                disks.sort() # sort by acending order
+                disks.sort() # sort by ascending order
                 # retrieve peg identity
                 peg_num = int(peg.bindings_dict['?p'].replace('peg', ''))
                 # switch cases
@@ -83,8 +83,6 @@ class TowerOfHanoiGame(GameMaster):
         (disk, src, dst) = movable_statement.terms
         retract_facts = []
         assert_facts = []
-        dst_top = None
-        src_below = None
         # facts to be retracted
         retract_facts.append(Fact(Statement(('on', disk, src))))
         retract_facts.append(Fact(Statement(('top', disk, src))))
