@@ -1,0 +1,126 @@
+TESTS WITH ERRORS 
+test05_GM_8Puzzle_01 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 130, in test05_GM_8Puzzle_01
+    p8.read('puzzle8_top_right_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test06_GM_8Puzzle_02 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 140, in test06_GM_8Puzzle_02
+    p8.read('puzzle8_center_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test07_GM_8Puzzle_03 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 157, in test07_GM_8Puzzle_03
+    p8.read('puzzle8_top_right_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test08_GM_8Puzzle_04 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 185, in test08_GM_8Puzzle_04
+    p8.read('puzzle8_center_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test15_DFS_8Puzzle_01 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 319, in test15_DFS_8Puzzle_01
+    p8.read('puzzle8_top_right_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test16_DFS_8Puzzle_02 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 338, in test16_DFS_8Puzzle_02
+    p8.read('puzzle8_center_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test17_DFS_8Puzzle_03 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 357, in test17_DFS_8Puzzle_03
+    p8.read('puzzle8_center_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test18_BFS_8Puzzle_01 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 376, in test18_BFS_8Puzzle_01
+    p8.read('puzzle8_top_right_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test19_BFS_8Puzzle_02 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 395, in test19_BFS_8Puzzle_02
+    p8.read('puzzle8_top_right_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+test20_BFS_8Puzzle_03 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\gradingtests.py", line 414, in test20_BFS_8Puzzle_03
+    p8.read('puzzle8_center_empty.txt')
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\game_master.py", line 134, in read
+    for fr in read_tokenize(final_path):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\uninformed-solvers\read.py", line 37, in read_tokenize
+    for line in file:
+  File "C:\Program Files\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 257: character maps to <undefined>
+
+-------------------------------
+TESTS FAILED  
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
